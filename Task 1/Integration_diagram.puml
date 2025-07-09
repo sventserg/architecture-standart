@@ -1,0 +1,46 @@
+@startuml
+title Диаграмма интеграции приложений банка "Стандарт"
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+Person(client, "Клиент", "Посещает отделение")
+Person(front_office_manager, "Менеджер фронт-офиса", "")
+Person(deposite_manager, "Менеджер бэк-офиса по депозитам", "")
+Person(credit_manager, "Менеджер бэк-офиса по кредитам", "")
+Person(call_center_operator, "Оператор кол-центра", "")
+Person(it, "IT отдел", "Поддержка систем")
+
+System_Boundary(boundary, "Банк 'Стандарт'") {
+
+    Container(abs, "АБС", "Delphi + Oracle", "Учет операций, бухгалтерия")
+    Container(call_center, "Система колл-центра", "Java + PostgreSQL", "Обработка обращений")
+    Container(sms, "СМС-шлюз", "Интеграция с телекомом", "Оповещения клиентов")
+    Container(site, "Сайт банка", "PHP + React", "Маркетинговая информация")
+    Container(internet_bank, "Интернет-банк", "ASP.NET + MS SQL", "Платежи, дебетовые карты")
+}
+
+Rel_L(client, front_office_manager, "Обращение в банк")
+Rel_R(client, call_center_operator, "Уточнение условий")
+Rel_D(client, site, "Маркетинговая информация")
+Rel_D(client, internet_bank, "Просмотр счетов и платежей")
+Rel_R(call_center_operator, call_center, "Заведение обращений")
+Rel_D(call_center, abs, "Заявка")
+Rel_D(internet_bank, abs, "Данные о счетах и платежах")
+Rel_R(front_office_manager, abs, "Открытие депозита, загрузка документов")
+Rel_D(front_office_manager, deposite_manager, "Email: уточнение условий")
+Rel_D(deposite_manager, credit_manager, "Email: запрос кредитного риска")
+Rel_U(credit_manager, abs, "Получение данных о клиенте")
+Rel_L(abs, deposite_manager, "Заявка из кол-центра")
+Rel_U(credit_manager, deposite_manager, "Email: кредитный риск клиента")
+Rel_U(deposite_manager, front_office_manager, "Email+Excel: ставка для клиента")
+Rel_U(it, abs, "")
+Rel_U(it, site, "")
+Rel_U(it, sms, "")
+Rel_U(it, call_center, "")
+Rel_U(it, internet_bank, "")
+Rel_U(abs, sms, "Отправка оповещений")
+Rel_U(sms, client, "Отправка оповещений")
+
+@enduml
