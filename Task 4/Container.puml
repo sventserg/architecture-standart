@@ -1,0 +1,67 @@
+@startuml
+title Context Diagram
+
+top to bottom direction
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Component.puml
+
+AddRelTag("async", $textColor="green", $lineColor="green", $lineStyle = DashedLine())
+
+Person(client, "Клиент", "")
+Person(callCenterManager, "Менеджер кол-центра", "")
+Person(depositeManager, "Бэк-офис Менеджер", "")
+
+
+System_Ext(telecom, "Телеком оператор","")
+
+System_Boundary(bankSystem, "Система банка") {
+   Container(gateway, "API Gateway")
+   Container(kafka, "Очередь сообщений", "Kafka")
+   Container_Boundary(abs, "АБС") {
+     Container(monolith, "Монолит", "Delphi + Oracle")
+     Container(dataModule, "Модуль данных", "Java", "преобразует запросы для использования Kafka")
+   }
+   Container_Boundary(callCenterSystem, "Система Кол-центра", "React.js Java Spring Boot PostgreSQL") {
+     Container(callCenter, "Кол-центр", "React.js Java Spring Boot PostgreSQL")
+     Container_Boundary(depositeModuleService, "Сервис по работе с депозитами"){
+        Container(depositeModule, "Сервис по работе с депозитами", "Java Spring Boot", "запрашивает актуальную информацию по депозитам")
+        ContainerDb(depositeModuleDb, "БД с заявками", "PostgreSQL", "Заявки на депозиты")
+     }
+   }
+   Container(website, "Вебсайт", "PHP React.js")
+   Container(internetBank, "Интернет-банк", ".NET MS SQL")
+   Container_Boundary(depositeServise, "Сервис Депозиты") {
+     Container(deposite, "Депозиты", "Java")
+     ContainerDb(depositeDb, "БД пдепозиты", "Oracle", "Хранит данные по депозитам")
+     ContainerDb(depositeRAMDb, "БД справочная информация", "Oracle-In_Memory", "Хранит актуальные ставки и справочную информацию")
+   }
+   Container(smsService, "СМС Сервис", "Java", "Сервис для отправки сообщений")
+
+}
+
+Rel_D(client, website, "просмотр актуальных депозитов / открытие депозита")
+Rel_D(client, internetBank, "просмотр персонализированных предложений / открытие депозита")
+Rel_D(website, gateway, "Получение актуальных депозитов, заявки на депозиты HTTPS")
+Rel_D(internetBank, gateway, "Получение актуальных депозитов и персонализированных предложений HTTPS")
+Rel_D(gateway, kafka, "Запросы в очередь", $tags="async")
+Rel_D(gateway, deposite, "Запросы")
+Rel_D(gateway, monolith, "Запросы")
+Rel_D(gateway, smsService, "Запросы")
+BiRel_R(kafka, smsService, "Запросы на отправку СМС", $tags="async")
+BiRel_D(kafka, deposite, "Запросы по депозитам", $tags="async")
+BiRel_U(kafka, dataModule, "Запрос персонализированных предложений, заявки на депозиты", $tags="async")
+Rel_L(monolith, depositeManager, "заявка на открытие депозита через интернет-банк")
+Rel_R(depositeManager, gateway, "подтверждение заявки")
+Rel_D(deposite, depositeDb, "Чтение / Запись")
+Rel_D(deposite, depositeRAMDb, "Чтение / Запись")
+Rel_U(callCenter, callCenterManager, "заявка на открытие депозита через сайт")
+Rel_R(callCenterManager, client, "согласование заявки")
+Rel_D(smsService, telecom, "запрос на отправку СМС подтверждения")
+Rel_L(telecom, client, "СМС с кодом подтверждения / СМС уведомление")
+BiRel_R(dataModule, monolith, "запросы")
+Rel_D(callCenter, depositeModule, "Запрос актуальной информации")
+Rel_U(depositeModule, callCenter, "Заявки на депозиты")
+BiRel_R(depositeModule, kafka, "Запрос актуальной информации, заявки на депозиты", $tags="async")
+Rel_D(depositeModule, depositeModuleDb, "Чтение / Запись")
+
+@enduml

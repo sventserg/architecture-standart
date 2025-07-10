@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Страница — 1" id="1m0xH0chN0ye9siR47Ew">
+    <mxGraphModel dx="-2759" dy="2125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-115" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5920" width="838" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-114" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4962" width="838" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-113" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5962" y="500" as="sourcePoint" />
+            <mxPoint x="6682" y="500.53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-38" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5001" y="140" as="sourcePoint" />
+            <mxPoint x="5720" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-39" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5002" y="260" as="sourcePoint" />
+            <mxPoint x="5720" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-40" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5000" y="379.47" as="sourcePoint" />
+            <mxPoint x="5720" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-41" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5001" y="500" as="sourcePoint" />
+            <mxPoint x="5720" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-42" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5003" y="740" as="sourcePoint" />
+            <mxPoint x="5720" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-43" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5142" y="40" as="sourcePoint" />
+            <mxPoint x="5142" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-44" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5342" y="40" as="sourcePoint" />
+            <mxPoint x="5342" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-45" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5542" y="40" as="sourcePoint" />
+            <mxPoint x="5542" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-49" value="Управление обслуживанием в сети отделений" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="5002" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-50" value="Кол-центр" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="5003" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-51" value="IT-отдел" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="5002" y="520" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-52" value="Управление обслуживанием депозитных продуктов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="5000" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-53" value="Управление обслуживанием кредитных продуктов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="5001" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-54" value="Продажи в сети отделений" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="5162" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-55" value="Продажи через кол-центр" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="5361" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-56" value="Digital-оповещения клиентов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="5560" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-57" value="Сайт" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="5640" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-58" value="Автоматизированная банковская система (АБС)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="5162" y="160" width="438" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-65" value="СМС-шлюз телеком-оператора" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="5560" y="200" width="80" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-68" value="Система кол-центра" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="5361" y="700" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-27" value="Интернет-банк" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="5560" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-80" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5961" y="140" as="sourcePoint" />
+            <mxPoint x="6680" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-81" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5962" y="260" as="sourcePoint" />
+            <mxPoint x="6680" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-82" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5960" y="379.47" as="sourcePoint" />
+            <mxPoint x="6680" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-84" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5963" y="740" as="sourcePoint" />
+            <mxPoint x="6680" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-85" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6102" y="40" as="sourcePoint" />
+            <mxPoint x="6102" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-86" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6302" y="40" as="sourcePoint" />
+            <mxPoint x="6302" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-87" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6502" y="40" as="sourcePoint" />
+            <mxPoint x="6502" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-89" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6302" y="40" as="sourcePoint" />
+            <mxPoint x="6302" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-90" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6502" y="40" as="sourcePoint" />
+            <mxPoint x="6502" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-91" value="Управление обслуживанием в сети отделений" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="5963" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-92" value="Кол-центр" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="5963" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-93" value="IT-отдел" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="5962" y="520" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-94" value="Управление обслуживанием депозитных продуктов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="5960" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-95" value="Управление обслуживанием кредитных продуктов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="5960" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-104" value="Обслуживание депозитных процессов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="6120" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-105" value="Управление договорами" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="6520" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-106" value="Обслуживание кредитных процессов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="6322.5" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-107" value="Автоматизированная банковская система (АБС)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="6320" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-110" value="Автоматизированная банковская система (АБС)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="6120" y="400" width="558" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-111" value="Система кол-центра" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="6122" y="680" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hTW3_em_ABLKHc0LpAUh-112" value="Автоматизированная банковская система (АБС)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="6120" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
